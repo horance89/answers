@@ -1,0 +1,52 @@
+version: '3.8'
+services:
+  ereceiver:
+    build:
+      context: ./services/ereceiver    # Path to the Dockerfile for eReceiver
+    container_name: ereceiver
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./logs:/var/log
+    env_file: 
+      - .env
+    networks:
+      - test-network
+
+  eprocessor:
+    build:
+      context: ./services/eprocessor   # Path to the Dockerfile for eProcessor
+    container_name: eprocessor
+    depends_on:
+      - db
+    networks:
+      - test-network
+    env_file: 
+      - .env
+
+  evalidator:
+    build:
+      context: ./services/evalidator   # Path to the Dockerfile for eValidator
+    container_name: evalidator
+    depends_on:
+      - db
+    networks:
+      - test-network
+    env_file: 
+      - .env
+
+  db:
+    image: postgres:latest
+    container_name: postgres_db
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    networks:
+      - test-network
+    volumes:
+      - ./db:/var/lib/postgresql/data
+
+networks:
+  test-network:
+    driver: bridge

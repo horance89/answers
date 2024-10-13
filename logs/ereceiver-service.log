@@ -1,0 +1,9 @@
+2024-10-03 11:32:09,907 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.28.0.2:8080
+2024-10-03 11:32:09,907 INFO: [33mPress CTRL+C to quit[0m
+2024-10-03 11:39:25,816 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-03 11:39:25,818 INFO: 172.28.0.1 - - [03/Oct/2024 11:39:25] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-03 11:39:25,825 ERROR: Invalid status
+2024-10-03 11:39:25,825 INFO: 172.28.0.1 - - [03/Oct/2024 11:39:25] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
