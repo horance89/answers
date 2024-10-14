@@ -7,3 +7,263 @@
 2024-10-03 11:39:25,818 INFO: 172.28.0.1 - - [03/Oct/2024 11:39:25] "POST /api/v1/data HTTP/1.1" 200 -
 2024-10-03 11:39:25,825 ERROR: Invalid status
 2024-10-03 11:39:25,825 INFO: 172.28.0.1 - - [03/Oct/2024 11:39:25] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 05:55:14,591 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.19.0.2:8080
+2024-10-14 05:55:14,592 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 05:58:17,406 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.0.3:8080
+2024-10-14 05:58:17,406 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 06:00:27,205 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.21.0.2:8080
+2024-10-14 06:00:27,205 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 06:03:46,072 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.22.0.3:8080
+2024-10-14 06:03:46,072 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 06:09:08,720 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.23.0.3:8080
+2024-10-14 06:09:08,720 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 06:17:38,272 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.24.0.2:8080
+2024-10-14 06:17:38,273 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 06:21:01,655 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.25.0.3:8080
+2024-10-14 06:21:01,655 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 06:27:55,408 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.26.0.2:8080
+2024-10-14 06:27:55,408 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 06:28:33,793 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 06:28:33,794 INFO: 172.26.0.1 - - [14/Oct/2024 06:28:33] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 06:28:33,799 INFO: 172.26.0.1 - - [14/Oct/2024 06:28:33] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 06:36:39,237 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.27.0.3:8080
+2024-10-14 06:36:39,237 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 06:39:07,727 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.28.0.3:8080
+2024-10-14 06:39:07,728 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 06:41:17,932 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.29.0.2:8080
+2024-10-14 06:41:17,932 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 06:49:05,890 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.30.0.3:8080
+2024-10-14 06:49:05,890 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 06:54:59,231 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.0.2:8080
+2024-10-14 06:54:59,231 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 06:56:21,490 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 06:56:21,490 INFO: 172.31.0.1 - - [14/Oct/2024 06:56:21] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 06:56:21,496 INFO: 172.31.0.1 - - [14/Oct/2024 06:56:21] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 07:06:15,075 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.3:8080
+2024-10-14 07:06:15,075 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 07:06:28,801 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 07:06:28,802 INFO: 192.168.0.1 - - [14/Oct/2024 07:06:28] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 07:06:28,810 INFO: 192.168.0.1 - - [14/Oct/2024 07:06:28] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 07:08:59,583 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.16.3:8080
+2024-10-14 07:08:59,583 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 07:09:22,995 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 07:09:22,996 INFO: 192.168.16.1 - - [14/Oct/2024 07:09:22] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 07:09:23,003 INFO: 192.168.16.1 - - [14/Oct/2024 07:09:23] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 07:12:13,838 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.32.2:8080
+2024-10-14 07:12:13,839 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 07:12:51,124 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 07:12:51,125 INFO: 192.168.32.1 - - [14/Oct/2024 07:12:51] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 07:12:51,132 INFO: 192.168.32.1 - - [14/Oct/2024 07:12:51] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 07:38:41,870 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.96.2:8080
+2024-10-14 07:38:41,871 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 07:39:26,410 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 07:39:26,411 INFO: 192.168.96.1 - - [14/Oct/2024 07:39:26] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 07:39:26,416 ERROR: Invalid status: {'status': 'invalid', 'type': 99, 'hash': 'invalid_hash'}
+2024-10-14 07:39:26,417 INFO: 192.168.96.1 - - [14/Oct/2024 07:39:26] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 07:40:43,300 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 07:40:43,301 INFO: 192.168.96.1 - - [14/Oct/2024 07:40:43] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 07:40:43,307 ERROR: Invalid status: {'status': 'invalid', 'type': 99, 'hash': 'invalid_hash'}
+2024-10-14 07:40:43,308 INFO: 192.168.96.1 - - [14/Oct/2024 07:40:43] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 07:44:38,058 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.112.3:8080
+2024-10-14 07:44:38,058 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 07:44:49,839 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 07:44:49,840 INFO: 192.168.112.1 - - [14/Oct/2024 07:44:49] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 07:44:49,846 ERROR: Invalid status: {'status': 'invalid', 'type': 99, 'hash': 'invalid_hash'}
+2024-10-14 07:44:49,847 INFO: 192.168.112.1 - - [14/Oct/2024 07:44:49] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 07:45:35,606 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 07:45:35,607 INFO: 192.168.112.1 - - [14/Oct/2024 07:45:35] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 07:45:35,615 ERROR: Invalid status: {'status': 'invalid', 'type': 99, 'hash': 'invalid_hash'}
+2024-10-14 07:45:35,615 INFO: 192.168.112.1 - - [14/Oct/2024 07:45:35] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 07:47:50,161 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.128.3:8080
+2024-10-14 07:47:50,161 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 07:48:05,915 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 07:48:05,916 INFO: 192.168.128.1 - - [14/Oct/2024 07:48:05] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 07:48:05,921 ERROR: Invalid status: {'status': 'invalid', 'type': 99, 'hash': 'invalid_hash'}
+2024-10-14 07:48:05,922 INFO: 192.168.128.1 - - [14/Oct/2024 07:48:05] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 07:49:22,286 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.144.3:8080
+2024-10-14 07:49:22,286 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 07:50:12,333 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 07:50:12,334 INFO: 192.168.144.1 - - [14/Oct/2024 07:50:12] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 07:50:12,339 ERROR: Invalid status: {'status': 'invalid', 'type': 99, 'hash': 'invalid_hash'}
+2024-10-14 07:50:12,340 INFO: 192.168.144.1 - - [14/Oct/2024 07:50:12] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 07:52:38,239 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.160.3:8080
+2024-10-14 07:52:38,239 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 07:52:55,542 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 07:52:55,542 INFO: 192.168.160.1 - - [14/Oct/2024 07:52:55] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 07:52:55,548 ERROR: Invalid status: {'status': 'invalid', 'type': 99, 'hash': 'invalid_hash'}
+2024-10-14 07:52:55,549 INFO: 192.168.160.1 - - [14/Oct/2024 07:52:55] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 07:58:37,871 ERROR: Invalid hash: {'status': 'complete', 'type': 5, 'hash': 'newhash1'}
+2024-10-14 07:58:37,872 INFO: 192.168.160.1 - - [14/Oct/2024 07:58:37] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 08:03:03,550 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.176.2:8080
+2024-10-14 08:03:03,550 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 08:05:33,328 INFO: 192.168.176.1 - - [14/Oct/2024 08:05:33] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 415 -
+2024-10-14 08:22:21,867 INFO: 192.168.176.1 - - [14/Oct/2024 08:22:21] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 415 -
+2024-10-14 08:23:04,867 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 08:23:04,868 INFO: 192.168.176.1 - - [14/Oct/2024 08:23:04] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 08:23:10,261 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 08:23:10,262 INFO: 192.168.176.1 - - [14/Oct/2024 08:23:10] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 08:24:18,438 INFO: Data received: {'status': 'complete', 'type': 2, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 08:24:18,438 INFO: 192.168.176.1 - - [14/Oct/2024 08:24:18] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 08:24:45,952 ERROR: Invalid status: {'status': 'ERROR', 'type': 6, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:24:45,953 INFO: 192.168.176.1 - - [14/Oct/2024 08:24:45] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 08:25:04,853 ERROR: Invalid type: {'status': 'incomplete', 'type': 6, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:25:04,854 INFO: 192.168.176.1 - - [14/Oct/2024 08:25:04] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 08:25:19,183 INFO: Data received: {'status': 'cancelled', 'type': 11, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:25:19,184 INFO: 192.168.176.1 - - [14/Oct/2024 08:25:19] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 08:25:35,881 INFO: Data received: {'status': 'incomplete', 'type': 11, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:25:35,882 INFO: 192.168.176.1 - - [14/Oct/2024 08:25:35] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 08:36:00,684 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.192.2:8080
+2024-10-14 08:36:00,684 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 08:36:09,850 INFO: Data received: {'status': 'incomplete', 'type': 11, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:36:09,851 ERROR: Exception on /api/v1/data [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 44, in receive_data
+    if is_valid:
+NameError: name 'is_valid' is not defined
+2024-10-14 08:36:09,852 INFO: 192.168.192.1 - - [14/Oct/2024 08:36:09] "[35m[1mPOST /api/v1/data HTTP/1.1[0m" 500 -
+2024-10-14 08:36:21,238 INFO: Data received: {'status': 'incomplete', 'type': 11, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:36:21,238 ERROR: Exception on /api/v1/data [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 44, in receive_data
+    if is_valid:
+NameError: name 'is_valid' is not defined
+2024-10-14 08:36:21,239 INFO: 192.168.192.1 - - [14/Oct/2024 08:36:21] "[35m[1mPOST /api/v1/data HTTP/1.1[0m" 500 -
+2024-10-14 08:36:27,463 INFO: Data received: {'status': 'incomplete', 'type': 5, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:36:27,463 ERROR: Exception on /api/v1/data [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 44, in receive_data
+    if is_valid:
+NameError: name 'is_valid' is not defined
+2024-10-14 08:36:27,464 INFO: 192.168.192.1 - - [14/Oct/2024 08:36:27] "[35m[1mPOST /api/v1/data HTTP/1.1[0m" 500 -
+2024-10-14 08:43:02,612 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.208.2:8080
+2024-10-14 08:43:02,612 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 08:43:43,333 INFO: Data received: {'status': 'incomplete', 'type': 5, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:43:43,340 INFO: Data validated successfully: {'status': 'incomplete', 'type': 5, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:43:43,340 INFO: 192.168.208.1 - - [14/Oct/2024 08:43:43] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 08:45:16,326 INFO: Data received: {'status': 'incomplete', 'type': 6, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:45:16,332 INFO: Data validated successfully: {'status': 'incomplete', 'type': 6, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:45:16,333 INFO: 192.168.208.1 - - [14/Oct/2024 08:45:16] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 08:45:19,693 INFO: Data received: {'status': 'incomplete', 'type': 6, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:45:19,697 INFO: Data validated successfully: {'status': 'incomplete', 'type': 6, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:45:19,697 INFO: 192.168.208.1 - - [14/Oct/2024 08:45:19] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 08:45:22,441 INFO: Data received: {'status': 'incomplete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:45:22,445 INFO: Data validated successfully: {'status': 'incomplete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:45:22,445 INFO: 192.168.208.1 - - [14/Oct/2024 08:45:22] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 08:45:25,607 INFO: Data received: {'status': 'incomplete', 'type': 3, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:45:25,611 INFO: Data validated successfully: {'status': 'incomplete', 'type': 3, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:45:25,611 INFO: 192.168.208.1 - - [14/Oct/2024 08:45:25] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 08:56:05,683 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.224.2:8080
+2024-10-14 08:56:05,683 INFO: [33mPress CTRL+C to quit[0m
+2024-10-14 08:56:21,234 ERROR: Invalid data: Invalid type
+2024-10-14 08:56:21,235 INFO: 192.168.224.1 - - [14/Oct/2024 08:56:21] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 08:56:26,369 INFO: Data received: {'status': 'incomplete', 'type': 5, 'hash': '661f8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:56:26,414 INFO: 192.168.224.1 - - [14/Oct/2024 08:56:26] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 08:58:03,954 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661f8009fa8e56a9d0e94a0a644397d7'}
+2024-10-14 08:58:03,975 INFO: 192.168.224.1 - - [14/Oct/2024 08:58:03] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 08:58:03,980 ERROR: Invalid data: Invalid status
+2024-10-14 08:58:03,980 INFO: 192.168.224.1 - - [14/Oct/2024 08:58:03] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -
+2024-10-14 08:59:07,129 INFO: Data received: {'status': 'incomplete', 'type': 5, 'hash': '661g8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:59:07,148 INFO: 192.168.224.1 - - [14/Oct/2024 08:59:07] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 08:59:13,807 INFO: Data received: {'status': 'complete', 'type': 1, 'hash': '661g8009fa8e56a9d0e94a01244397d7'}
+2024-10-14 08:59:13,824 INFO: 192.168.224.1 - - [14/Oct/2024 08:59:13] "POST /api/v1/data HTTP/1.1" 200 -
+2024-10-14 08:59:42,007 ERROR: Invalid data: Invalid hash
+2024-10-14 08:59:42,008 INFO: 192.168.224.1 - - [14/Oct/2024 08:59:42] "[31m[1mPOST /api/v1/data HTTP/1.1[0m" 400 -

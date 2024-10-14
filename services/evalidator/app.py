@@ -1,34 +1,38 @@
-# eValidator app.py
+import logging
 from flask import Flask, request, jsonify
-import os
-from dotenv import load_dotenv
+import uuid
+from datetime import datetime, timedelta
 
-# Load environment variables from .env file
-load_dotenv()
+# Configure logging
+logging.basicConfig(filename='/var/log/evalidator-service.log', 
+                    level=logging.INFO, 
+                    format='%(asctime)s %(levelname)s: %(message)s')
 
 app = Flask(__name__)
 
-VALIDATION_WINDOW_MS = int(os.getenv('VALIDATION_WINDOW_MS', 5000))  # Default to 5000 if not set
-
-event_store = {}  # Store events temporarily by hash
+# In-memory event tracking
+events = {}
 
 @app.route('/api/v1/validate', methods=['POST'])
 def validate_event():
     data = request.json
     hash_value = data['hash']
-    event_type = data['type']
-    
-    if hash_value in event_store:
-        prev_event = event_store[hash_value]
-        type_sum = prev_event['type'] + event_type
-        if type_sum >= 10:
-            return jsonify({"error": "Type sum >= 10", "events": [prev_event, data]}), 200
-        else:
-            return jsonify({"message": "No error, type sum < 10"}), 200
-    else:
-        # Store the event
-        event_store[hash_value] = data
+    current_time = datetime.utcnow()
+    events[hash_value] = events.get(hash_value, []) + [(data, current_time)]
 
+    # Clean up events outside the validation window
+    for key, items in list(events.items()):
+        events[key] = [(d, t) for d, t in items if current_time - t < timedelta(milliseconds=5000)]
+        if not events[key]:
+            del events[key]
+
+    # Check for conditions and publish error event if needed
+    total_type = sum(d['type'] for d, _ in events[hash_value])
+    if total_type >= 10:
+        logging.info(f"Publishing error event for hash {hash_value}")
+        publish_cloud_event(events[hash_value], source="evalidator", subject="ERROR")
+
+    logging.info(f"Event validated: {data}")
     return jsonify({"message": "Event validated", "data": data}), 200
 
 if __name__ == "__main__":

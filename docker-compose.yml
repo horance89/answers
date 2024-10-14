@@ -2,7 +2,8 @@ version: '3.8'
 services:
   ereceiver:
     build:
-      context: ./services/ereceiver    # Path to the Dockerfile for eReceiver
+      context: ./services/ereceiver
+      dockerfile: ./services/ereceiver/Dockerfile
     container_name: ereceiver
     ports:
       - "8080:8080"
@@ -15,8 +16,10 @@ services:
 
   eprocessor:
     build:
-      context: ./services/eprocessor   # Path to the Dockerfile for eProcessor
+      context: ./services/eprocessor
     container_name: eprocessor
+    ports:
+      - "8081:8081"
     depends_on:
       - db
     networks:
@@ -26,8 +29,11 @@ services:
 
   evalidator:
     build:
-      context: ./services/evalidator   # Path to the Dockerfile for eValidator
+      context: ./services/evalidator
+      dockerfile: ./services/evalidator/Dockerfile
     container_name: evalidator
+    ports:
+      - "8082:8082"  # Expose eValidator on port 8082
     depends_on:
       - db
     networks:
@@ -46,7 +52,8 @@ services:
       - test-network
     volumes:
       - ./db:/var/lib/postgresql/data
-
+      - ./db_init:/docker-entrypoint-initdb.d  # Mount the init scripts
+  
 networks:
   test-network:
     driver: bridge
